@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author ErickBSG
+ * @author Abraham
  */
 public class Principal extends javax.swing.JFrame {
 
@@ -123,8 +123,8 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCerrarActionPerformed
 
     private void btbEntrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btbEntrarActionPerformed
-       if(txtUsuario.getText().equals("ErickBSG") && 
-               pfContrasena.getText().equals("marshmallow")){
+       if(txtUsuario.getText().equals("Aberaham") && 
+               pfContrasena.getText().equals("piripitiflautica")){
            new Ventana2().setVisible(true);
            this.dispose();
        }else{
